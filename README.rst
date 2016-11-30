@@ -64,8 +64,11 @@ the list goes on!
 .. _minikube: https://github.com/kubernetes/minikube
 
 Any way you look at it, there are many options for trying out Kubernetes and
-OpenShift these days. For this blog I'll choose to run on OpenShift Online, but
+OpenShift these days. For this blog I chose to run on the 
+`OpenShift Online developer preview`_, but
 the steps should work on any Openshift or Kubernetes environment.
+
+.. _OpenShift Online developer preview: https://www.openshift.com/devpreview/
 
 Once I had logged in to the openshift console at api.preview.openshift.com_ 
 I was able to grab a token by visiting https://api.preview.openshift.com/oauth/token/request 
